@@ -1,4 +1,5 @@
 import React from 'react';
+import image from "../assets/image.png";
 
 const SymptomCard = ({ title, description }) => (
   <div className="flex gap-4 p-4 bg-white rounded-xl border-l-4 border-red-500 shadow-sm">
@@ -61,7 +62,7 @@ const Patient = () => {
             <h3 className="text-2xl font-bold text-blue-900 mb-6 text-center">Understanding Your Eye</h3>
             
             <div className="aspect-square bg-slate-100 rounded-4xl mb-8 flex items-center justify-center border-8 border-slate-50 relative overflow-hidden">
-                 <img src="/src/assets/image.png" alt="humaneye" className='w-full h-full object-cover rounded-4xl' />
+                 <img src={image} alt="humaneye" className='w-full h-full object-cover rounded-4xl' />
             </div>
 
 
