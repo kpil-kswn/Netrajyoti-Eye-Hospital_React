@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import home from "../assets/home.jpeg";
 
 const ServiceCard = ({ title, description, icon }) => (
   <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow text-center">
@@ -40,7 +41,7 @@ const Home = () => {
           <div className="md:w-1/2 relative">
              
             <div className="w-full h-[400px] bg-slate-200 rounded-2xl overflow-hidden border-4 border-white/20 shadow-2xl flex items-center justify-center text-slate-400">
-              <img src="/src/assets/home.jpeg" alt="DoctorImage" className='w-full h-full object-cover object-center'/>
+              <img src={home} alt="DoctorImage" className='w-full h-full object-cover object-center'/>
             </div>
           </div>
         </div>
