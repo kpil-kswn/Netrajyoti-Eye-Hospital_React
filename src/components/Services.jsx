@@ -1,6 +1,6 @@
 import React from "react";
 import area1 from "../assets/area1.jpeg";
-import area2 from "../assets/area1.jpeg";
+import area2 from "../assets/area2.jpeg";
 
 const ServiceItem = ({ title, hindiTitle, description,fees}) => (
   <div className="bg-white p-6 rounded-lg shadow-md border-t-4 border-blue-600 hover:transform hover:-translate-y-1 transition-all duration-300">
