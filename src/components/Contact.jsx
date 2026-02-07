@@ -1,4 +1,5 @@
 import React from "react";
+import locate from "../assets/location.jpeg";
 
 const ContactInfo = ({ icon, title, details }) => (
   <div className="flex items-start gap-4 p-6 bg-blue-50 rounded-2xl border border-blue-100">
@@ -67,7 +68,7 @@ const Contact = () => {
 
         
           <div className="bg-slate-100 rounded-3xl overflow-hidden shadow-inner border-2 border-dashed border-slate-300">
-            <img src="/src/assets/location.jpeg" alt="location" className="w-full h-full object-cover object-center" />
+            <img src={locate} alt="location" className="w-full h-full object-cover object-center" />
             
           </div>
         
