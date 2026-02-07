@@ -1,6 +1,6 @@
-# Netrajyoti Eye Hospital (Kanota) - Full Stack Web Application
+# Netrajyoti Eye Hospital (Kanota) - Professional Frontend Web Application
 
-A modern, high-performance healthcare platform built for **Netrajyoti Eye Hospital**, focusing on patient accessibility and digital presence. This project demonstrates a clean UI/UX, optimized asset management, and professional healthcare branding.
+A modern, high-performance healthcare platform built for **Netrajyoti Eye Hospital**, focusing on patient accessibility and digital presence. This project demonstrates advanced React patterns, optimized asset management, and professional healthcare branding.
 
 ## 🚀 Live Demo
 **https://netrajyoti-eye-hospital-kanota.vercel.app**
@@ -8,7 +8,7 @@ A modern, high-performance healthcare platform built for **Netrajyoti Eye Hospit
 ## 🛠️ Tech Stack
 * **Frontend:** React.js (Vite)
 * **Styling:** Tailwind CSS (Mobile-first, responsive design)
-* **Routing:** React Router DOM
+* **Routing:** React Router DOM (Client-side routing)
 * **Icons:** Lucide-React
 * **Deployment:** Vercel (CI/CD via GitHub Integration)
 
@@ -16,13 +16,13 @@ A modern, high-performance healthcare platform built for **Netrajyoti Eye Hospit
 * **Dynamic Hospital Gallery:** High-performance image gallery with optimized assets and custom zoom-on-hover effects using Tailwind transitions.
 * **Professional Doctor Profiles:** Dedicated section for medical staff featuring detailed credentials for Dr. Madhusudhan Sharma (MBBS) and Dr. Babulal Saudawat.
 * **Patient-Centric Navigation:** Easy access to specialized services like Emergency Care, 24/7 Pharmacy, and Operation Theatre details.
-* **Optimized Performance:** Leverages Vite’s build-time asset hashing and compression to ensure fast load times for high-resolution medical facility photos.
+* **Asset Optimization:** Leverages Vite’s build-time hashing and compression to ensure fast load times for high-resolution medical images.
 * **Responsive Layout:** Optimized for cross-device compatibility, ensuring accessibility for patients on mobile, tablet, and desktop.
 
 ## 🏗️ Technical Implementation
-* **Asset Management:** Implemented a robust image import system to handle Vite's production build requirements and file hashing.
-* **Routing Logic:** Configured `vercel.json` rewrites to handle client-side routing and prevent 404 errors on single-page application (SPA) refreshes.
-* **Stacking Contexts:** Managed complex UI layers using CSS Z-indexing to create fixed background overlays with adjusted opacity for readability.
+* **Asset Pipeline:** Implemented a robust image import system to handle Vite's production build requirements and file hashing for better caching.
+* **Routing Logic:** Configured `vercel.json` rewrites to handle client-side routing and prevent 404 errors on Single Page Application (SPA) refreshes.
+* **UI Stacking Contexts:** Managed complex UI layers using CSS Z-indexing to create fixed background overlays with adjusted opacity for readability.
 
 ## 📂 Project Structure
 ```text
