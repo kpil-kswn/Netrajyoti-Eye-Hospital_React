@@ -3,7 +3,7 @@
 A modern, high-performance healthcare platform built for **Netrajyoti Eye Hospital**, focusing on patient accessibility and digital presence. This project demonstrates a clean UI/UX, optimized asset management, and professional healthcare branding.
 
 ## 🚀 Live Demo
-**[Link to your Vercel Deployment]**
+**https://netrajyoti-eye-hospital-kanota.vercel.app**
 
 ## 🛠️ Tech Stack
 * **Frontend:** React.js (Vite)
