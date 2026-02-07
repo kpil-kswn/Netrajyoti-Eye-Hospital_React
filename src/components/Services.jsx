@@ -1,4 +1,6 @@
 import React from "react";
+import area1 from "../assets/area1.jpeg";
+import area2 from "../assets/area1.jpeg";
 
 const ServiceItem = ({ title, hindiTitle, description,fees}) => (
   <div className="bg-white p-6 rounded-lg shadow-md border-t-4 border-blue-600 hover:transform hover:-translate-y-1 transition-all duration-300">
@@ -124,10 +126,10 @@ const Services = () => {
           </div>
           <div className="md:w-1/2 bg-slate-200 flex items-center justify-center p-10">
             <div>
-              <img src="/src/assets/area1.jpeg" alt="advanceclinic" />
+              <img src={area1} alt="advanceclinic" />
             </div>
             <div>
-              <img src="/src/assets/area2.jpeg" alt="eyetesting" />
+              <img src={area2} alt="eyetesting" />
             </div>
           </div>
         </div>
