@@ -18,7 +18,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2 space-y-6">
             <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
-              नैन ज्योति आँखों का अस्पताल
+              नेत्रज्योति आँखों का अस्पताल
             </h1>
             <p className="text-xl text-cyan-50 font-medium">
               Advanced Eye Care & Microsurgery Center
@@ -56,10 +56,22 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <ServiceCard 
-              icon="👁️" 
-              title="Cataract (मोतियाबिंद)" 
-              description="Micro-incision surgery (MICS) with advanced foldable lens implantation." 
-            />
+  icon="👁️" 
+  title="Phacoemulsification (फेको सर्जरी)" 
+  description="Advanced phaco surgery with foldable lens implantation for faster recovery and better vision outcomes." 
+/>
+
+<ServiceCard 
+  icon="👁️" 
+  title="SICS Surgery (एसआईसीएस सर्जरी)" 
+  description="Small Incision Cataract Surgery (SICS) – safe and cost-effective treatment for cataract removal." 
+/>
+
+<ServiceCard 
+  icon="👁️" 
+  title="Phaco with Foldable Lens Implant (फोल्डेबल लेंस इम्प्लांट)" 
+  description="Modern cataract treatment using foldable intraocular lens (IOL) for minimal incision and quick healing." 
+/>
             <ServiceCard 
               icon="🔬" 
               title="Glaucoma (काला पानी)" 
@@ -72,7 +84,7 @@ const Home = () => {
             />
             <ServiceCard 
               icon="🏥" 
-              title="24/7 Emergency" 
+              title="10:00 AM - 7:00 PM (OPD/IPD)" 
               description="Round-the-clock emergency eye trauma care and pharmacy services." 
             />
           </div>
