@@ -30,7 +30,7 @@ const Footer = () => {
           <h3 className="font-semibold mb-3">Our Services</h3>
           <ul className="space-y-2 text-sm">
             <li>Emergency Care</li>
-            <li>24/7 Pharmacy</li>
+            <li>10:00 AM - 7:00 Pm (OPD/IPD)</li>
             <li>Laboratory</li>
             <li>Operation Theatre</li>
             <li>Ambulance Service</li>
@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         <div>
           <h3 className="font-semibold mb-3">Contact Us</h3>
-          <p className="text-sm">📍 Agra Rd, Kanota, Kanauta, Rajasthan 303012</p>
+          <p className="text-sm">📍 नेत्रज्योति, पुलिस थाने के सामने, आगरा रोड, कनोता, राजस्थान – 303012</p>
           <p className="text-sm">📞 +91 9782625667</p>
           <p className="text-sm">✉️ babulalsharma1318@gmail.com</p>
         </div>
